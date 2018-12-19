@@ -1,25 +1,17 @@
-maps:
-  - apt
-    - libproj-dev
-    - libgeos-dev
-  - pip install folium
-  - pip install fileupload
-  - conda
-    - channels
-      - conda-forge
-    - dependencies
-      - python
-      - matplotlib
-      - basemap
+- pip install fileupload
 
-astro-stuff:
-  - conda install -c astropy/label/openastronomy pyephem
-
-presentation:
-  - pip:
-    - jupyter_contrib_nbextensions
-    - RISE
-    - jupyter-wysiwyg
-    - jupyter nbextension install [--user] --py fileupload
-    - jupyter nbextension enable [--user] --py fileupload
+channels:
+  - conda-forge
+dependencies:
+  - appmode
+  - numpy
+  - ipywidgets
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn 
+pip:
+  - jupyter nbextension install [--user] --py fileupload
+  - jupyter nbextension enable [--user] --py fileupload
+    
 
