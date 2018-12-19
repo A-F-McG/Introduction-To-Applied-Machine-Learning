@@ -8,8 +8,4 @@ dependencies:
   - scikit-learn
   - scipy
   - seaborn 
-pip:
-  - jupyter nbextension install [--user] --py fileupload
-  - jupyter nbextension enable [--user] --py fileupload
-    
 
