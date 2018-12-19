@@ -9,7 +9,6 @@ dependencies:
   - scipy
   - seaborn 
   - opencv
-  - nbextension
   
   - pip:
     - jupyter_contrib_nbextensions
