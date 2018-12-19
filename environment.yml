@@ -8,3 +8,5 @@ dependencies:
   - scikit-learn
   - scipy
   - seaborn 
+  - opencv
+  - fileupload
