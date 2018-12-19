@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+dependencies:
+  - appmode
+  - numpy
+  - ipywidgets
+  - pandas
+  - scikit-learn
+  - scipy
+  - seaborn 
+  - opencv
